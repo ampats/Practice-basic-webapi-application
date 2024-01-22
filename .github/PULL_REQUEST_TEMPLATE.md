@@ -20,11 +20,7 @@ images for UI changes._
 _If your PR includes UI changes, please utilize this checklist:_
 - [ ] Semantic HTML implemented?
 - [ ] Keyboard operability supported?
-- [ ] Checked with [axe DevTools](https://www.deque.com/axe/) and addressed `Critical` and `Serious` issues?
 - [ ] Color contrast tested?
-
-_For more info, check out the
-[Forem Accessibility Docs](https://developers.forem.com/frontend/accessibility)._
 
 ## Added/updated tests?
 _We encourage you to keep the code coverage percentage at 80% and above._
