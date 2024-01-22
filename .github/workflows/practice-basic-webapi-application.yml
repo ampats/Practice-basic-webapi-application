@@ -3,8 +3,8 @@ name: Practice-basic-webapi-application Workflow
 on: push
 
 jobs:
-  webhook-test:
-    name: Webhook Test
+  workflow:
+    name: Workflow
     runs-on: ubuntu-latest 
 
     steps:
