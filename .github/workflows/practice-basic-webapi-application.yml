@@ -9,7 +9,7 @@ jobs:
   webhook-test:
     name: Webhook Test
     runs-on: ubuntu-latest 
-    #[self-hosted, linux, x64, dm-dq-dynamic-runner, dotnet, ubuntu-latest]
+
     steps:
     - name: Checkout
       uses: actions/checkout@v3
