@@ -3,7 +3,7 @@
 ### _This file includes instructions on how to run the application locally on Windows_
 ---
 
-- Clone repository using [repo ssh link](git@github.com:ampats/Practice-basic-webapi-application.git) by running the following git command inside the destination folder you want to clone it:
+- Clone repository using [repo ssh link](git@github.com:ampats/Practice-basic-webapi-application.git) by running the following git command in the terminal, inside the destination folder you want to clone it:
 ```git
 git clone git@github.com:ampats/Practice-basic-webapi-application.git
 ```
@@ -13,7 +13,7 @@ git clone git@github.com:ampats/Practice-basic-webapi-application.git
     dotnet build
     dotnet run
 ```
-- While running, output displays 2 links for the local machine currently making the request: click one of them
+- While running, output displays 2 links for the local machine currently making the request (format: *http://localhost:xxxx*): click one of them
 
 - "Hello World" is then displayed in the localhost window
-- Press Ctrl + C to shut down
+- Press ```Ctrl + C``` to shut down
