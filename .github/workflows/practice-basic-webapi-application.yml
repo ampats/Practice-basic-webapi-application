@@ -3,15 +3,7 @@
 
 name: Practice-basic-webapi-application Workflow
 
-on:
-  repository_dispatch:
-    types: 
-      - webhook-test
-    
-  push:
-    branches: 
-      - main
-      - feature/DCE-153-walking-skeleton 
+on: push
 
 jobs:
   webhook-test:
@@ -23,7 +15,5 @@ jobs:
       uses: actions/checkout@v3
       
     - name: Build
-      run: dotnet build ./src/WebApi.csproj
+      run: echo "Hello, World"
      
-    - name: Echo
-      run: echo ${{ github.event.client_payload.text }}
