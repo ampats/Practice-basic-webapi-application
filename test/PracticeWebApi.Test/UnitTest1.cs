@@ -1,10 +1,13 @@
-namespace PracticeWebApi.Test;
+using System;
+using System.Diagnostics;
 
-public class UnitTest1
-{
-    [Fact]
-    public void Test1()
-    {
+namespace PracticeWebApi.Test {
 
+    public class UnitTest1 {
+        [Fact]
+        public void Test1() {
+            int val = 1;
+            Debug.Assert(val != 1, " Value should not be 1.");
+        }
     }
 }
