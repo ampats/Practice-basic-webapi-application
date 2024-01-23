@@ -1,5 +1,5 @@
 using System;
-using System.Diagnostics;
+using System.IO;
 
 namespace PracticeWebApi.Test {
 
@@ -7,7 +7,6 @@ namespace PracticeWebApi.Test {
         [Fact]
         public void Test1() {
             int val = 1;
-            Debug.Assert(val != 1, " Value should not be 1.");
-        }
+            Assert.NotEqual(val, 1);        }
     }
 }
