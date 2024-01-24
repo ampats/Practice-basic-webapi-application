@@ -19,5 +19,5 @@ jobs:
       with:
         name: artifact
         path: |
-          net6.0
+          src
       
