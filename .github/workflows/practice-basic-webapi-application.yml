@@ -19,5 +19,5 @@ jobs:
       with:
         name: artifact
         path: |
-          src
+          src/bin
       
