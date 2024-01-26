@@ -15,24 +15,24 @@ jobs:
       run: echo "Hello, World"
 
     - name: Publish
-      run: dotnet publish src/WebApi.csproj -r linux-x64 --self-contained=true -c Release -o dist /p:PublishSingleFile=true
+      run: dotnet publish src/WebApi.csproj -r linux-x64 --self-contained=true -c Release -o src /p:PublishSingleFile=true
 
     - name: Upload Artifact
       uses: actions/upload-artifact@v4
       with:
         name: artifact
-        path: |
+        path: | 
           dist
 
-  artifact:
-    name: Deploy Artifact to Github Runner
-    runs-on: [self-hosted, linux, dynamic-runner-service]
-    needs: workflow
+  # artifact:
+  #   name: Deploy Artifact to Github Runner
+  #   runs-on: [self-hosted, linux, dynamic-runner-service]
+  #   needs: workflow
 
-    steps:
-      - name: Download Artifact
-        uses: actions/download-artifact@v4
-        with:
-          name: deploy
+  #   steps:
+  #     - name: Download Artifact
+  #       uses: actions/download-artifact@v4
+  #       with:
+  #         name: deploy
 
 
