@@ -17,23 +17,8 @@ jobs:
     - name: Upload Artifact
       uses: actions/upload-artifact@v4
       with:
-        name: deploy
+        name: artifact
         path: |
-          src
+          dist
+          
 
-  deploy:
-    name: Deploy Artifact to Github Runner
-    runs-on: [self-hosted, linux, dynamic-runner-service]
-    needs: workflow
-
-    steps:
-    - name: Download Artifact
-      uses: actions/download-artifact@v4
-      with:
-        name: deploy
-
-    - name: Move to Automation folder
-      run: |
-        mkdir -p /app/pipeline-tooling/EnvironmentTokenReplacer
-        chmod +x EnvironmentTokenReplacer
-        mv EnvironmentTokenReplacer /app/pipeline-tooling/EnvironmentTokenReplacer
