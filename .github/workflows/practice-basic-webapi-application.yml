@@ -24,4 +24,9 @@ jobs:
         path: |
           dist
 
+  artifact:
+    name: Deploy Artifact to Github Runner
+    runs-on: [self-hosted, linux, dynamic-runner-service]
+    needs: workflow
+
 
