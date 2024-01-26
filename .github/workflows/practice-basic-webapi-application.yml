@@ -14,15 +14,15 @@ jobs:
     - name: Build
       run: echo "Hello, World"
 
-    # - name: Publish
-    #   run: dotnet publish src/WebApi.csproj -r linux-x64 --self-contained=true -c Release -o dist #/p:PublishSingleFile=true
+    - name: Publish
+      run: dotnet publish "${{github.workspace }}/src/WebApi.csproj" -c Release -o src #/p:PublishSingleFile=true
 
     - name: Upload Artifact
       uses: actions/upload-artifact@v4
       with:
         name: artifact
         path: | 
-          dist
+          src/
 
   # artifact:
   #   name: Deploy Artifact to Github Runner
