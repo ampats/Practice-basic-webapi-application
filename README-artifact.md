@@ -5,7 +5,7 @@
 
 ### 1. Instructions to download the artifact and extract the files in your local machine
 
-- A zip file will be downloaded in your PC once you click on the artifact (named **"binary"**). When download is ready click on **Save as** and save it in your preferred destination folder
+- A zip file will be downloaded in your PC once you click on the artifact (named **"artifact"**). When download is ready click on **Save as** and save it in your preferred destination folder
 
 - Open the destination folder and right click on the zip file and then click on **Extract All**
 
@@ -13,7 +13,7 @@
 
 ### 2. Instructions to run the application locally after extractig the files
 
-- Click on the extracted folder and then on the "win-x64" folder, which includes the files of the binary
+- Click on the extracted folder and then on **release>win-x64** folder, which includes the files of the binary
 
 - Double click on **WebApi.exe**. The application is now running on your local machine. 
 
@@ -22,4 +22,3 @@
 - ``Hello World`` is then displayed in the localhost window
 
 - Press ```Ctrl + C``` to shut down (make sure to click inside the command line window before pressing)
-
