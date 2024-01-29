@@ -23,9 +23,4 @@ jobs:
         name: binary
         path: | 
           ./release
-
-    - name: Include README file to run app using the artifact
-      uses: actions/upload-artifact@v4
-      with:
-        name: README
-        path: README_artifact.md
+          README_artifact.md
