@@ -5,14 +5,7 @@
 
 ### 1. Instructions to download the artifact and extract the files in your local machine
 
-- Navigate to *https://github.com/ampats/Practice-basic-webapi-application/actions*
-
-- Click on the most recent workflow (at the top of the workflows list)
-
-- Scroll down to the **Artifacts** section and click the artifact displayed (named "artifact") in order to start downloading it in your PC
-![Download Artifact](/.github/workflows/images/download_artifact.png?raw=true)
-
-- A zip file will be downloaded in your PC. When download is ready click on **Save as** and save it in your preferred destination folder
+- A zip file will be downloaded in your PC once you click on the artifact (named **"binary"**). When download is ready click on **Save as** and save it in your preferred destination folder
 
 - Open the destination folder and right click on the zip file and then click on **Extract All**
 
