@@ -20,7 +20,7 @@ jobs:
     - name: Upload Artifact
       uses: actions/upload-artifact@v4
       with:
-        name: binary
+        name: artifact
         path: | 
           ./release
-          README_artifact.md
+          README-artifact.md
