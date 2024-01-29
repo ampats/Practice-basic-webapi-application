@@ -23,16 +23,3 @@ jobs:
         name: artifact
         path: | 
           ./release
-
-  # artifact:
-  #   name: Deploy Artifact to Github Runner
-  #   runs-on: [self-hosted, linux, dynamic-runner-service]
-  #   needs: workflow
-
-  #   steps:
-  #     - name: Download Artifact
-  #       uses: actions/download-artifact@v4
-  #       with:
-  #         name: deploy
-
-
