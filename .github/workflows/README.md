@@ -10,7 +10,7 @@
 - Click on the most recent workflow (at the top of the workflows list)
 
 - Scroll down to the **Artifacts** section and click the artifact displayed (named "artifact") in order to start downloading it in your PC
-![Download Artifact](.github/workflows/images/download_artifact.png?raw=true)
+![Download Artifact](/.github/workflows/images/download_artifact.png?raw=true)
 
 - A zip file will be downloaded in your PC. When download is ready click on **Save as** and save it in your preferred destination folder
 
