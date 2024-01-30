@@ -23,7 +23,7 @@ git clone git@github.com:ampats/Practice-basic-webapi-application.git
 
 #### 2. To run the test for the application
 
-- Run the following command inside test\PracticeWebApi.Test
+- Run the following command (inside Practice-basic-webapi-application)
 ```dotnet
     dotnet test
 ```
