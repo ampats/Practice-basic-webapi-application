@@ -9,8 +9,15 @@ jobs:
 
     steps:
     - name: Checkout
-      uses: actions/checkout@v3
-      
-    - name: Build
-      run: echo "Hello, World"
-     
+      uses: actions/checkout@v4
+
+    - name: Publish
+      run: dotnet publish src/WebApi.csproj -r win-x64 --self-contained=true -c Release -o release/win-x64 /p:PublishSingleFile=true
+
+    - name: Upload Artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: artifact
+        path: | 
+          ./release
+          README.md
