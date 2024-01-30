@@ -20,4 +20,4 @@ jobs:
         name: artifact
         path: | 
           ./release
-          README-artifact.md
+          README.md
