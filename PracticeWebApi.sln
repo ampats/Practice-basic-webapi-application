@@ -25,7 +25,4 @@ Global
 		{052CA8FC-7679-4009-AABD-074B2147399E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{052CA8FC-7679-4009-AABD-074B2147399E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{052CA8FC-7679-4009-AABD-074B2147399E} = {51AC6806-323E-4B7F-96F9-7117B0B2E604}
-	EndGlobalSection
 EndGlobal
